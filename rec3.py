@@ -1,6 +1,6 @@
 import turtle
 
-#t = turtle.Turtle()
+t = turtle.Turtle()
 
 t.speed(100)
 
@@ -8,7 +8,7 @@ t.pensize(2)
 s = turtle.Screen()
 s.bgcolor("black")
 
-#t.color("red")
+t.color("red")
 def draw(l, d):
     print("depth =", d, ", ", end="")
     if d == 0:
